@@ -10,9 +10,13 @@ This is an app for finding restaurants close by (using a map), also allowing the
 2. Once the files are on your local machine, run any server locally.
 3. Visit the site using http://localhost:8000 on your local browser.
 
-### What you can do?
+### How does the app work:
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
+1. When arriving on the homepage, you can look at restaurants on the map and click on the map marker to direct to a restaurant page.
+2. You can also filter the map markers by selecting a certain neighborhood or certain cuisine.
+3. You can click on "View Details" on any of the restaurants you want to view more details on.
+4. Each restaurant page has the restaurant Name, a restaurant image, restaurant location, and hours of operation.
+5. Each restaurant page also has a list of reviews with user feedback.
 
 ## Credits Leaflet.js and Mapbox:
 
