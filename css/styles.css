@@ -9,7 +9,8 @@ body,td,th,p{
 }
 body {
 	background-color: #fdfdfd;
-	margin: 0;
+	margin: 0 auto;
+	max-width: 1130px;
 	position:relative;
 }
 ul, li {
@@ -38,6 +39,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
+	display:flex;
+	flex-direction: column;
 }
 #footer {
   background-color: #444;
@@ -60,7 +63,7 @@ nav h1 {
 }
 nav h1 a {
   color: #fff;
-  font-size: 14pt;
+  font-size: 18pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -106,9 +109,9 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
   background-color: #3397DB;
   align-items: center;
+	padding:10px 0;
 }
 .filter-options h2 {
   color: white;
@@ -136,6 +139,10 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -146,13 +153,13 @@ nav h1 a {
   padding: 0 30px 25px;
   text-align: left;
   width: 270px;
+	max-width:300px;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
   min-width: 100%;
 }
 #restaurants-list li h1 {
@@ -272,4 +279,58 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+@media only screen and (min-width:0px) {
+	nav h1 a {
+  	font-size: 21pt;
+    letter-spacing: 0px;
+	}
+	#footer {
+    font-size: 12pt;
+	}
+	.filter-options select {
+		font-size: 16pt;
+		width:80%;
+	}
+	.filter-options h2 {
+    font-size: 1.5rem;
+	}
+	#restaurants-list li {
+		width:100%;
+		max-width: 100%;
+	}
+	#restaurants-list p {
+    font-size: 14pt;
+	}
+	#restaurants-list li h1 {
+    font-family: Arial,sans-serif;
+    font-size: 16pt;
+	}
+	#restaurants-list li a {
+		font-size: 14pt;
+		width:6s5%;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	nav h1 a {
+    font-size: 18pt;
+    letter-spacing: 10px;
+	}
+	.filter-options select {
+		font-size: 11pt;
+		width:200px;
+	}
+	#restaurants-list li {
+	    width: 270px;
+	    max-width: 300px;
+	}
+	#restaurants-list li a {
+    width: 78%;
+	}
+}
+
+@media only screen and (min-width:1032px) {
+
 }
