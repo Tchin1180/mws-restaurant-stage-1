@@ -14,7 +14,7 @@ This is an app for finding restaurants nearby, filtering restaurants by cuisine 
 
 1. On the homepage, you can look at restaurants on the map and or the restaurant list. If you click on any of the map marker, it will direct you to an individual restaurant page.
 2. Back on the homepage, you can also filter the map markers by selecting a certain neighborhood or a certain cuisine.
-3. In the restaurant list, Yyu can click on "View Details" on any of the restaurant you want to view more details on.
+3. In the restaurant list, you can click on "View Details" on any of the restaurant you want to view more details on.
 4. Each restaurant page has the restaurant name, a restaurant image, restaurant location, and hours of operation.
 5. Each restaurant page also has a list of reviews with user feedback.
 
