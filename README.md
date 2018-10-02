@@ -2,7 +2,7 @@
 ---
 ## Project Overview:
 
-This is an app for finding restaurants close by (using a map), also allowing the ability to filter restaurants by cuisine type, being able to read customer reviews and looking up a restaurant hours of operation.
+This is an app for finding restaurants nearby, filtering restaurants by cuisine type or neighborhoods, being able to read customer reviews and looking up a restaurant information and hours of operation.
 
 ### How to install:
 
@@ -12,15 +12,15 @@ This is an app for finding restaurants close by (using a map), also allowing the
 
 ### How does the app work:
 
-1. When arriving on the homepage, you can look at restaurants on the map and click on the map marker to direct to a restaurant page.
-2. You can also filter the map markers by selecting a certain neighborhood or certain cuisine.
-3. You can click on "View Details" on any of the restaurants you want to view more details on.
-4. Each restaurant page has the restaurant Name, a restaurant image, restaurant location, and hours of operation.
+1. On the homepage, you can look at restaurants on the map and or the restaurant list. If you click on any of the map marker, it will direct you to an individual restaurant page.
+2. Back on the homepage, you can also filter the map markers by selecting a certain neighborhood or a certain cuisine.
+3. In the restaurant list, Yyu can click on "View Details" on any of the restaurant you want to view more details on.
+4. Each restaurant page has the restaurant name, a restaurant image, restaurant location, and hours of operation.
 5. Each restaurant page also has a list of reviews with user feedback.
 
-## Credits Leaflet.js and Mapbox:
+## Credits:
 
 1. This project repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/).
-2. [Service Workers](https://developers.google.com/web/fundamentals/primers/service-workers/) from Google Developers Guide
-3. Common breakdown explanation of service works from [Matthew Cranford](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
-4. [Aria Tutorials](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+2. Used [Service Workers](https://developers.google.com/web/fundamentals/primers/service-workers/) from Google Developers Guide as a starting point for Service Workers.
+3. Used guide to understand common breakdown explanation of service works from [Matthew Cranford](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
+4. Used [Aria Tutorials](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) to incorporate general accessibility guidelines

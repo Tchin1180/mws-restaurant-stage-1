@@ -169,6 +169,7 @@ createRestaurantHTML = (restaurant) => {
   li.append(name);
 
   const neighborhood = document.createElement('p');
+  neighborhood.className = 'neighborhood-tag';
   neighborhood.innerHTML = restaurant.neighborhood;
   li.append(neighborhood);
 

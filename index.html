@@ -20,18 +20,17 @@
     <section id="map-container" aria-labelledby="map-aria-desc" role="application">
       <div id="map"></div>
     </section>
-    <label id="map-aria-desc" class="map-aria-desc">Map provided by Mapbox</label>
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
+        <label id="neighborhoods-label" class="filter-label"> Neighborhoods: </label>
         <select role="tablist" tabindex="2" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <label id="neighborhoods-label" class="filter-label">:by Neighborhoods</label>
+        <label id="cuisines-label" class="filter-label"> Cuisines: </label>
         <select role="tablist" tabindex="2" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
-        <label id="cuisines-label" class="filter-label">:by Cuisines</label>
       </div>
       <ul id="restaurants-list"></ul>
     </section>
@@ -43,7 +42,7 @@
 
 
   <footer id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
 
 </body>
