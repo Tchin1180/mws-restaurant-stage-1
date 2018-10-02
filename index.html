@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,18 +17,19 @@
   </header>
 
   <main id="maincontent">
-    <section id="map-container" aria-labelledby="map-aria-desc" role="application">
-      <div id="map"></div>
+    <section id="map-container" aria-labelledby="map-aria-desc">
+      <div role="application" id="map"></div>
     </section>
+    <label id="map-aria-desc" class="map-aria-desc">Mapbox application</label>
     <section>
       <div class="filter-options" tabindex="0" aria-label="filter list">
         <h2>Filter Results</h2>
-        <label id="neighborhoods-label" class="filter-label"> Neighborhoods: </label>
-        <select role="tablist" tabindex="0" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <label id="neighborhoods-label" for="neighborhoods-select" class="filter-label"> Neighborhoods: </label>
+        <select tabindex="0" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <label id="cuisines-label" class="filter-label"> Cuisines: </label>
-        <select role="tablist" tabindex="0" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <label id="cuisines-label" for="cuisines-select" class="filter-label"> Cuisines: </label>
+        <select tabindex="0" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
       </div>

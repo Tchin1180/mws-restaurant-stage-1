@@ -430,6 +430,10 @@ nav h1 a {
 		padding: 10px 10px 16px;
 		max-width:1110px;
 	}
+	.inside #map-container {
+    height: 38%;
+    position: absolute;
+	}
 	#footer {
 		padding: 25px 0;
 	}
